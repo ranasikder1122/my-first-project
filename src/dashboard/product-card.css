@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.active{
+    color: green;
+}
+.pending{
+    color:red;
+}
+.container{
+   
+  display: flex;
+  justify-content: center;
+ align-items: center;
+
+
+}
+.container li a {
+   text-decoration: none;
+   list-style: none;
+}
+.container ul{
+    list-style: none;
+}
+.nahid-container img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: move;
+    
+   
+}
+.nahid-container{
+    width: 125px;
+    height: 175px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10.47px;
+
+}
+.nahid-text-one{
+    font-size: 6.99px;
+    margin-top: 5.24px;
+    font-weight: bold;
+    color: #3B3F5C;
+}
+.nahid-text-two{
+    font-size: 5.24px;
+    margin-top: 0.87px;
+    font-weight: regular;
+    color: #3B3F5C;
+}
+.star{
+    font-size: 5.24px;
+    color: #E2A03F;
+    margin-top: 5.24px;
+   
+}
+.pa{
+    font-size: 4.36px;
+    text-align: center;
+    font-weight: regular;
+    color: #3B3F5C;
+    gap: 5.24px;
+    margin-top: 5.24px;
+}
+.nahid-follow button{
+    width: 55px;
+    height: 14.98px;
+    background-color: #5D5FEF;
+    color: white;
+    font-size: 5.24px;
+    border-color: #5D5FEF;
+    border-style: none;
+    margin-top: 10.47px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.nahid-follow button:hover{
+    background-color: #E2A03F;
+}
+
+.nahid-followers p{
+ font-size: 4.36px;
+ color: #3B3F5C;
+ font-weight: regular;
+ margin-top: -2px;
+}
+.nahid-followers span{
+    font-size: 5.24px;
+    color: #3B3F5C;
+    font-weight: semiBold;
+}
+.nahid-followers{
+    display: flex;
+   gap: 10.32px;
+   flex-direction: row;
+   margin-top: 12.22px;
+   text-align: center;
+}
+   
