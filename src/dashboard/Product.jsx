@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Menu from './component/Menu'
 import './product-card.css'
 import { FaStar} from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa6";
 
 const Product = () => {
+    const [hide,setHide] = useState(true)
   return (
     <div>
         <Menu/>
+       
        <div  className='nahid-container'>
+       
+       
          <img className="nahid-pc" src="/src/nahid.png" alt="" />
          
          <div className="nahid-text-one"><span>Nahid Hasan</span></div>
