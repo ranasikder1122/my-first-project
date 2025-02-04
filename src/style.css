@@ -1,0 +1,28 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}
+/* @media screen and (max-width:980px) {
+    .box{
+        background-color: blue;
+    }
+}
+@media screen and (max-width:768px){
+    .box{
+        background-color: yellow;
+    }
+} */
+ @media screen and (min-width:480px) and (max-width:768px){
+   .box{
+    background-color: black;
+   } 
+ }
+ h2{
+    font-size: 60px;
+ }
+ @media screen and (max-width:480px) {
+    h2{
+        font-size: 45px;
+    }
+ }
