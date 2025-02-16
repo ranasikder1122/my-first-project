@@ -1,12 +1,11 @@
 import React from 'react'
-import Hero from './component/Hero'
+import Hero2 from './component/Hero2'
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-
+    <div>
+      <Hero2/>
+    </div>
   )
 }
 
