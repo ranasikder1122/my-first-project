@@ -487,7 +487,7 @@ const HomePage = () => {
                 <div className='flex justify-center space-x-2 text-[#434447] 
                 text-[14px] mt-[40px]'>
                   <div className='w-4 h-4 bg-white ring-2 rounded-full flex
-                   justify-center items-center font-normal'>
+                   justify-center items-center font-normal mt-0.5'>
                      c
                   </div>
                   <span className='font-normal mb-[16px] '>2021 Divante S.A.</span>
