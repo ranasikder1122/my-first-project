@@ -6,7 +6,7 @@ import UsersProvider from './ContextAPI/UserContext';
 const App = () => {
   return (
    < UsersProvider>
-        <div>
+    <div>
       <NewUser/>
       <Users />
     </div>
